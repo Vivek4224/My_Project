@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        form {
+            display: inline-block;
+            padding-left: 250px;
+        }   
+
+        form label {
+            padding-left: 200px;
+
+        }
+
+        form input,
+        form select {
+            margin-left: 30px;
+        }
+
+        input[type="text"] {
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body style="background-color: #bca0d6;">
+    <fieldset>
+        <legend align="center"><b>Registration Details</b></legend>
+        <form>
+            <div>
+                <label for="name" style="padding-bottom:200px; "><b>University:</b></label>
+                <input type="text" width="400px">
+            </div>
+
+
+            <br>
+
+
+            <div style="padding-left: 15px;">
+                <label for="institute"><b>Institute:</b></label>
+                <input type="text">
+            </div>
+
+
+            <br>
+
+
+            <div style="padding-left: 22px;">
+                <label for="branch"><b>Branch:</b></label>
+                <select name="select" id="select" style="width: 120px; ">
+                    <option value="amd">---select---</option>
+                    <option value="amd">Ahmdabad</option>
+                    <option value="srt">Surat</option>
+                    <option value="rjt">Rajkot</option>
+                </select>
+            </div>
+
+
+            <br>
+
+
+            <div class="degree" style="display: flex; padding-left: 24px; padding-bottom: 23px;">
+                <div class="degree1" style="display: flex;">
+                    <label for="degree"><b>Degree:</b></label>
+                    <select name="select" id="select" style="height: 18px;width: 120px; margin-left: 34px;">
+                        <option value="">---select---</option>
+                        <option value="">BCA</option>
+                        <option value="">B.TECH</option>
+                        <option value="">B.S.C</option>
+                    </select>
+                </div>
+
+
+                <div class="degree2">
+                    <label for="degree" style="padding-left: 0;"></label>
+                    <label style="padding-left: 0;"><input type="radio" id="degree" name="degree"
+                            value="pursuing"><b>Pursuing</b></label>
+                    <label style="padding-left: 0;"><input type="radio" id="degree" name="degree"
+                            value="completed"><b>Completed</b></label>
+                </div>
+            </div>
+
+
+
+            <div style="display: flex;">
+                <label for="CPI" style="padding-left: 189px;"><b>Average CPI:</b></label>
+                <input type="number">
+                <label for="upto" style="padding-left: 0;"><b>Upto</b></label>
+                <input type="number">
+                <label for="th semester" style="padding-left: 0;"><b>TH Semester</b></label>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="experience"><b>Experience:</b></label>
+                <input type="number">
+                <label for="years" style="padding-left: 0;"><b>Years</b></label>
+            </div>
+
+
+            <br>
+
+            <div>
+                <label for="web&blog" style="padding-left: 127px;"><b>Your Website Or Blog:</b></label>
+                <input type="url" placeholder="https://www.google.com">
+            </div>
+
+
+            <br>
+
+            <div style="display: flex; justify-content: center;">
+                <input type="submit" value="Register" style="
+                background-color: #d0605f;cursor: pointer;padding:10px 25px; ">
+            </div>
+
+        </form>
+    </fieldset>
+</body>
+
+</html>

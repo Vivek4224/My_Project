@@ -1,0 +1,24 @@
+1) Define the terms: Website, Webpage, Web browser, Web server, HTML, 
+CSS.
+
+Ans.:-
+
+Website:-
+A collection of web pages and media over the internet is called a website. The website can be published on at least one web server and can be identified by a common domain name, for example - javatpoint.com, google.com, youtube.com.
+
+Webpage:-
+A web page is a single hypertext document available on World Wide Web (WWW). It is composed of HTML elements and displayed on the user's browser such as Mozilla, Firefox, Chrome, etc. It is also referred to as "Page."
+
+Web browser:-
+A browser is a software program that is used to explore, retrieve, and display the information available on the World Wide Web. This information may be in the form of pictures, web pages, videos, and other files that all are connected via hyperlinks and categorized with the help of URLs (Uniform Resource Identifiers). For example, you are viewing this page by using a browser.
+
+A browser is a client program as it runs on a user computer or mobile device and contacts the webserver for the information requested by the user. The web server sends the data back to the browser that displays the results on internet supported devices. On behalf of the users, the browser sends requests to web servers all over the internet by using HTTP (Hypertext Transfer Protocol). A browser requires a smartphone, computer, or tablet and internet to work.
+
+Web Server:-
+A web server is a dedicated computer responsible for running websites sitting out on those computers somewhere on the Internet. They are specialized programs that circulate web pages as summoned by the user. The primary objective of any web server is to collect, process and provide web pages to the users.
+
+HTML:-
+HTML is an acronym which stands for Hyper Text Markup Language which is used for creating web pages and web applications. Let's see what is meant by Hypertext Markup Language, and Web page.
+
+CSS:-
+CSS stands for Cascading Style Sheets. It is a style sheet language which is used to describe the look and formatting of a document written in markup language. It provides an additional feature to HTML. It is generally used with HTML to change the style of web pages and user interfaces. It can also be used with any kind of XML documents including plain XML, SVG and XUL.

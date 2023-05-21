@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    margin: 5px;
+    border: 3px solid blue;
+}
+
+label{
+    margin-right: 10px;
+    color: blue;
+    justify-content: end;
+    text-align: end;
+    font-family: sans-serif;
+}
+
+.heading header{
+    background-color: rgb(47, 194, 243);
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.heading header h1{
+    color: red;
+    text-align: center;
+}
+
+.main{
+    background-color: aqua;
+    height: 800px;
+}
+
+.main .user h4{
+    color: red;
+    padding: 30px;   
+}
+
+.particulars{
+    display: grid;
+    padding-right: 330px;
+    justify-content: end;
+}
+
+.particulars label p{
+    display: contents;
+    color: red;
+}
+
+.label1{
+    text-align: end;
+}
+
+.label2{
+    text-align: end;
+}
+
+.label3{
+    text-align: end;
+}
+
+.main .second h4{
+    color: red;
+    padding: 30px; 
+    font-family: sans-serif;  
+}
+
+.main .second .left .situation label p{
+    display: contents;
+    color: red;
+}
+
+.leftRight{
+    display: flex;
+}
+
+.account{
+    display: flex;
+}
+
+.p{
+    font-family: sans-serif;
+    margin-left: 30px;
+    color: blue;
+}
+
+.btn{
+    display: flex;
+    margin-inline: 40px;
+}
+

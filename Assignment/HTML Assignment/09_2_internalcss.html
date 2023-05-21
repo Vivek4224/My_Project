@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            background-color: black;
+            height: 150px;
+            width: 100%;
+        }
+
+        .logo {
+            padding: 5px;
+        }
+
+        .logo img {
+            height: 80px;
+            width: 80px;
+            border-radius: 10px;
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            margin-top: -30px;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            cursor: pointer;
+            padding: 20px;
+        }
+
+        ul li {
+            display: flex;
+            padding: 50px;
+        }
+
+        ul li a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        .bg img{
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .movie{
+            padding: 10px;
+            background-color: black;
+        }
+
+        .movie img{
+            image-rendering: crisp-edges;
+            height: 550px;
+            width: 350px;
+            padding: 29px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="nav-list">
+        <header>
+            <ul>
+                <div class="logo">
+                    <img src="img/img-2.jpg" alt="logo">
+                </div>
+
+                <div class="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="https://vegamovies.chat/" target="_blank">Hollywood</a></li>
+                    <li><a href="https://dotmovies.bio/" target="_blank">Bollywood</a></li>
+                    <li><a href="https://dotmovies.bio/" target="_blank">South Indian</a></li>
+                    <li><a href="https://dudefilms.pics/category/gujarati/" target="_blank">Gujarati</a></li>
+                </div>
+            </ul>
+        </header>
+    </div>
+    <div class="bg">
+        <img src="img/img-2.jpg" alt="">
+    </div>
+    <div class="movie">
+        <img src="img/suicide.jpg" alt="">
+        <img src="img/Jhon Wick.jpg" alt="">
+        <img src="img/ant man.jpg" alt="">
+        <img src="img/bhhot.jpg" alt="">
+        <img src="img/pruthvi.jpg" alt="">
+        <img src="img/shershah.avif" alt="">
+        <img src="img/rrr.jpg" alt="">
+        <img src="img/bahu.jpg" alt="">
+        <img src="img/KGF.jpg" alt="">
+        <img src="img/t-shirt.jpg" alt="">
+        <img src="img/Vash.jpg" alt="">
+        <img src="img/rado.jpg" alt="">
+    </div>
+</body>
+
+</html>
