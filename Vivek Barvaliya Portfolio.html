@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Vivek Barvaliya portfolio</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com/?ckcachebust=7F4AD073C443037ACD62D2FCC53BB413">
+  <link href="./files/css2" rel="stylesheet">
+
+  <link rel="stylesheet" href="./files/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="./files/animate.css">
+
+  <link rel="stylesheet" href="./files/owl.carousel.min.css">
+  <link rel="stylesheet" href="./files/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./files/magnific-popup.css">
+
+  <link rel="stylesheet" href="./files/aos.css">
+
+  <link rel="stylesheet" href="./files/ionicons.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="./files/flaticon.css">
+  <link rel="stylesheet" href="./files/icomoon.css">
+  <link rel="stylesheet" href="./files/style.css">
+
+  <script src="./files/simplex-noise.min.js.download"></script>
+  <script src="./files/p5.js.download"></script>
+
+  <style>
+    :root {
+      --colors-custom: #ff7843;
+    }
+
+    .cursor {
+      height: 9.75rem;
+      pointer-events: none;
+      position: absolute;
+      width: 18.75rem;
+      z-index: 4;
+    }
+
+    .profile_img {
+      border-radius: 10%;
+    }
+
+    @media screen and (min-width: 1440px) {
+      .cursor {
+        height: 18.75rem;
+        width: 31.25rem;
+      }
+    }
+
+    .app__cursors .cursor {
+      height: 9.75rem;
+      width: 9.75rem;
+    }
+
+    @media screen and (min-width: 768px) {
+      .app__cursors .cursor {
+        width: 18.75rem;
+      }
+    }
+
+    @media screen and (min-width: 1440px) {
+      .app__cursors .cursor {
+        height: 18.75rem;
+        width: 31.25rem;
+      }
+    }
+
+    .cursor__element {
+      align-items: center;
+      display: flex;
+      gap: 8px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      transform: translate(var(--translate-x), var(--translate-y));
+      will-change: transform;
+    }
+
+    .cursor__arrow path {
+      filter: drop-shadow(0 0 2px 0 rgba(0, 0, 0, 0.1));
+    }
+
+    .cursor--custom .cursor__name {
+      background-color: var(--colors-custom);
+    }
+
+    .cursor__name {
+      border-radius: 9999px;
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 500;
+      line-height: 1.25rem;
+      padding: 0.0625rem 0.625rem;
+    }
+
+    .cursor--blue {
+      color: #0B2C55;
+    }
+
+    .cursor--blue .cursor__name {
+      background-color: #0B2C55;
+    }
+
+    .app,
+    .app__cursors {
+      position: relative;
+    }
+  </style>
+
+  <style type="text/css">
+    .scrollax-performance,
+    .scrollax-performance *,
+    .scrollax-performance *:before,
+    .scrollax-performance *:after {
+      pointer-events: none !important;
+      -webkit-animation-play-state: paused !important;
+      animation-play-state: paused !important;
+    }
+
+    ;
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" data-aos-easing="slide"
+  data-aos-duration="800" data-aos-delay="0" cz-shortcut-listen="true">
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">Vivek Barvaliya</a>
+      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+        data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link active"><span>Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><span>About</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><span>Resume</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><span>Services</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><span>Skills</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><span>Projects</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><span>Contact</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="home-section" class="hero">
+    <div class="container">
+      <div class="row hero-section d-md-flex justify-content-center">
+        <div class="one-forth d-flex align-items-center ftco-animate col-lg-5 col-md-12 fadeInUp ftco-animated"
+          data-scrollax=" properties: { translateY: &#39;70%&#39; }">
+          <div class="text">
+            <span class="subheading">Hello!</span>
+            <h1 class="mb-4 mt-3">Hi! I Am <br>
+              <span>Vivek Barvaliya</span>
+            </h1>
+            <p class="mb-4">High level experience in Full Stack Developer and front-end knowledge, producing quality
+              work.</p>
+            <p>
+              <a href="#project" class="btn btn-primary1 py-3 px-4">My works</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-12">
+          <svg id="hero" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 859.63 838.53">
+            <defs>
+              <lineargradient id="linear-gradient" x1="285.01" y1="660" x2="285.01" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#ed184f"></stop>
+                <stop offset="1" stop-opacity="0"></stop>
+              </lineargradient>
+              <lineargradient id="linear-gradient-2" x1="626.54" y1="167.17" x2="626.54" y2="827.17"
+                gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#091753"></stop>
+                <stop offset="1" stop-opacity="0"></stop>
+              </lineargradient>
+              <lineargradient id="linear-gradient-3" x1="143.92" y1="266.15" x2="143.92" y2="213.03"
+                gradientUnits="userSpaceOnUse">
+                <stop offset="0.5" stop-color="#ed184f"></stop>
+                <stop offset="1" stop-opacity="0"></stop>
+              </lineargradient>
+              <lineargradient id="linear-gradient-4" x1="467.51" y1="265.98" x2="467.51" y2="57.22"
+                gradientUnits="userSpaceOnUse">
+                <stop offset="0.5" stop-color="#ed184f"></stop>
+                <stop offset="1" stop-opacity="0"></stop>
+              </lineargradient>
+              <lineargradient id="linear-gradient-5" x1="320.61" y1="703.94" x2="394.81" y2="283.11"
+                gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-opacity="0"></stop>
+                <stop offset="0.35" stop-color="#ed184f"></stop>
+              </lineargradient>
+              <lineargradient id="linear-gradient-6" x1="548.65" y1="723.37" x2="548.65" y2="450.34"
+                gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-opacity="0"></stop>
+                <stop offset="0.4" stop-color="#0029ff"></stop>
+              </lineargradient>
+              <lineargradient id="linear-gradient-7" x1="621.28" y1="63.65" x2="695.64" y2="446.21"
+                xlink:href="#linear-gradient-6"></lineargradient>
+              <lineargradient id="linear-gradient-8" x1="455.79" y1="50.47" x2="648.88" y2="50.47"
+                gradientUnits="userSpaceOnUse">
+                <stop offset="0.49" stop-color="#2b2b2b"></stop>
+                <stop offset="1" stop-opacity="0"></stop>
+              </lineargradient>
+              <lineargradient id="linear-gradient-9" x1="550.95" y1="358.44" x2="572.86" y2="471.18"
+                gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-opacity="0"></stop>
+                <stop offset="0.7" stop-color="#0029ff"></stop>
+              </lineargradient>
+              <lineargradient id="linear-gradient-10" x1="0.19" y1="345.28" x2="115.76" y2="345.28"
+                gradientUnits="userSpaceOnUse">
+                <stop offset="0.6" stop-color="#2b2b2b"></stop>
+                <stop offset="1" stop-opacity="0"></stop>
+              </lineargradient>
+              <lineargradient id="linear-gradient-11" x1="321.16" y1="580" x2="429.94" y2="900"
+                gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-opacity="0"></stop>
+                <stop offset="0.35" stop-color="#2b2b2b"></stop>
+              </lineargradient>
+              <lineargradient id="linear-gradient-12" x1="0.76" y1="178.55" x2="115.19" y2="178.55"
+                gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#222"></stop>
+                <stop offset="0.74" stop-color="#212121" stop-opacity="0.97"></stop>
+                <stop offset="1" stop-opacity="0"></stop>
+              </lineargradient>
+            </defs>
+            <line x1="429.15" y1="722.38" x2="321.95" y2="655.76" fill="none" stroke-miterlimit="10" stroke-width="3"
+              stroke="url(#linear-gradient-11)">
+              <animate attributeName="x1" from="429.15" to="280.75" values="429.15; 280.75; 429.15" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y1" from="722.38" to="726.63" values="722.38; 726.63; 722.38" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="x2" from="321.95" to="216.41" values="321.95; 216.41; 321.95" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y2" from="655.76" to="645.65" values="655.76; 645.65; 655.76" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+            </line>
+            <path
+              d="M114.38,0H455.64a0,0,0,0,1,0,0V489.37A170.63,170.63,0,0,1,285,660h0A170.63,170.63,0,0,1,114.38,489.37V0a0,0,0,0,1,0,0Z"
+              fill="url(#linear-gradient)"></path>
+            <path
+              d="M626.54,167.17h0A170.63,170.63,0,0,1,797.17,337.8V827.17a0,0,0,0,1,0,0H455.91a0,0,0,0,1,0,0V337.8A170.63,170.63,0,0,1,626.54,167.17Z"
+              fill="url(#linear-gradient-2)"></path>
+            <line x1="286.28" y1="264.67" x2="1.57" y2="214.51" fill="none" stroke-miterlimit="10" stroke-width="3"
+              stroke="url(#linear-gradient-3)">
+              <animate attributeName="x1" from="286.28" to="154.15" values="286.28; 154.15; 286.28" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y1" from="264.67" to="275.93" values="264.67; 275.93; 264.67" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="x2" from="1.57" to="17.37" values="1.57; 17.37; 1.57" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y2" from="214.51" to="178.94" values="214.51; 178.94; 214.51" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+            </line>
+            <line x1="286.28" y1="264.67" x2="648.75" y2="58.52" fill="none" stroke-miterlimit="10" stroke-width="3"
+              stroke="url(#linear-gradient-4)">
+              <animate attributeName="x1" from="286.28" to="154.15" values="286.28; 154.15; 286.28" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y1" from="264.67" to="275.93" values="264.67; 275.93; 264.67" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="x2" from="648.75" to="606.45" values="648.75; 606.45; 648.75" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y2" from="58.52" to="99.5" values="58.52; 99.5; 58.52" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+            </line>
+            <line x1="286.28" y1="264.67" x2="429.15" y2="722.38" fill="none" stroke-miterlimit="10" stroke-width="3"
+              stroke="url(#linear-gradient-5)">
+              <animate attributeName="x1" from="286.28" to="154.15" values="286.28; 154.15; 286.28" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y1" from="264.67" to="275.93" values="264.67; 275.93; 264.67" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="x2" from="429.15" to="280.75" values="429.15; 280.75; 429.15" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y2" from="722.38" to="726.63" values="722.38; 726.63; 722.38" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+            </line>
+            <line x1="668.16" y1="451.33" x2="429.15" y2="722.38" fill="none" stroke-miterlimit="10" stroke-width="3"
+              stroke="url(#linear-gradient-6)">
+              <animate attributeName="x1" from="668.16" to="606.45" values="668.16; 606.45; 668.16" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y1" from="451.33" to="523.07" values="451.33; 523.07; 451.33" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="x2" from="429.15" to="280.75" values="429.15; 280.75; 429.15" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y2" from="722.38" to="726.63" values="722.38; 726.63; 722.38" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+            </line>
+            <line x1="668.16" y1="451.33" x2="648.75" y2="58.52" fill="none" stroke-miterlimit="10" stroke-width="3"
+              stroke="url(#linear-gradient-7)">
+              <animate attributeName="x1" from="668.16" to="606.45" values="668.16; 606.45; 668.16" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y1" from="451.33" to="523.07" values="451.33; 523.07; 451.33" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="x2" from="648.75" to="606.45" values="648.75; 606.45; 648.75" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y2" from="58.52" to="99.5" values="58.52; 99.5; 58.52" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+            </line>
+            <line x1="648.75" y1="58.52" x2="455.91" y2="42.42" fill="none" stroke-miterlimit="10" stroke-width="3"
+              stroke="url(#linear-gradient-8)">
+              <animate attributeName="x1" from="648.75" to="606.45" values="648.75; 606.45; 648.75" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y1" from="58.52" to="99.5" values="58.52; 99.5; 58.52" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="x2" from="455.91" to="455.64" values="455.91; 455.64; 455.91" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y2" from="42.42" to="78.52" values="42.42; 78.52; 42.42" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+            </line>
+            <line x1="455.64" y1="378.29" x2="668.16" y2="451.33" fill="none" stroke-miterlimit="10" stroke-width="3"
+              stroke="url(#linear-gradient-9)">
+              <animate attributeName="x1" from="455.64" to="455.64" values="455.64; 455.64; 455.64" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y1" from="378.29" to="437.86" values="378.29; 437.86; 378.29" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="x2" from="668.16" to="606.45" values="668.16; 606.45; 668.16" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y2" from="451.33" to="523.07" values="451.33; 523.07; 451.33" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+            </line>
+            <line x1="1.57" y1="214.51" x2="114.38" y2="476.06" fill="none" stroke-miterlimit="10" stroke-width="3"
+              stroke="url(#linear-gradient-10)">
+              <animate attributeName="x1" from="1.57" to="17.37" values="1.57; 17.37; 1.57" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y1" from="214.51" to="178.94" values="214.51; 178.94; 214.51" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="x2" from="114.38" to="114.38" values="114.38; 114.38; 114.38" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y2" from="476.06" to="483.08" values="476.06; 483.08; 476.06" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+            </line>
+            <line x1="1.57" y1="214.51" x2="114.38" y2="142.6" fill="none" stroke-miterlimit="10" stroke-width="3"
+              stroke="url(#linear-gradient-12)">
+              <animate attributeName="x1" from="1.57" to="17.37" values="1.57; 17.37; 1.57" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y1" from="214.51" to="178.94" values="214.51; 178.94; 214.51" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="x2" from="114.38" to="114.38" values="114.38; 114.38; 114.38" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              <animate attributeName="y2" from="142.6" to="133.12" values="142.6; 133.12; 142.6" keyTimes="0; 0.5; 1"
+                repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+            </line>
+            <g>
+              <line x1="28.85" y1="219.33" x2="1.5" y2="214.51" fill="none" stroke="#fff" stroke-linecap="round"
+                stroke-miterlimit="10" stroke-width="3">
+                <animate attributeName="x1" from="28.85" to="39.97" values="28.85; 39.97; 28.85" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y1" from="219.33" to="194.97" values="219.33; 194.97; 219.33"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="x2" from="1.5" to="17.36" values="1.5; 17.36; 1.5" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y2" from="214.51" to="178.94" values="214.51; 178.94; 214.51"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              </line>
+              <line x1="286.21" y1="264.67" x2="260.23" y2="260.1" fill="none" stroke="#fff" stroke-linecap="round"
+                stroke-miterlimit="10" stroke-width="3">
+                <animate attributeName="x1" from="286.21" to="154.15" values="286.21; 154.15; 286.21"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y1" from="264.67" to="275.93" values="264.67; 275.93; 264.67"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="x2" from="260.23" to="133" values="260.23; 133; 260.23" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y2" from="260.1" to="260.93" values="260.1; 260.93; 260.1" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              </line>
+              <line x1="623.3" y1="72.96" x2="648.68" y2="58.53" fill="none" stroke="#fff" stroke-linecap="round"
+                stroke-miterlimit="10" stroke-width="3">
+                <animate attributeName="x1" from="623.3" to="579.55" values="623.3; 579.55; 623.3" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y1" from="72.96" to="110" values="72.96; 110; 72.96" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="x2" from="648.68" to="606.45" values="648.68; 606.45; 648.68"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y2" from="58.53" to="99.5" values="58.53; 99.5; 58.53" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              </line>
+              <line x1="286.21" y1="264.67" x2="310.75" y2="250.72" fill="none" stroke="#fff" stroke-linecap="round"
+                stroke-miterlimit="10" stroke-width="3">
+                <animate attributeName="x1" from="286.21" to="154.15" values="286.21; 154.15; 286.21"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y1" from="264.67" to="275.93" values="264.67; 275.93; 264.67"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="x2" from="310.75" to="180.27" values="310.75; 180.27; 310.75"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y2" from="250.72" to="265.74" values="250.72; 265.74; 250.72"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              </line>
+              <line x1="421.04" y1="696.63" x2="429.08" y2="722.38" fill="none" stroke="#fff" stroke-linecap="round"
+                stroke-miterlimit="10" stroke-width="3">
+                <animate attributeName="x1" from="421.04" to="273.47" values="421.04; 273.47; 421.04"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y1" from="696.63" to="700.7" values="696.63; 700.7; 696.63" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="x2" from="429.08" to="280.75" values="429.08; 280.75; 429.08"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y2" from="722.38" to="726.63" values="722.38; 726.63; 722.38"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              </line>
+              <line x1="286.21" y1="264.67" x2="293.23" y2="287.18" fill="none" stroke="#fff" stroke-linecap="round"
+                stroke-miterlimit="10" stroke-width="3">
+                <animate attributeName="x1" from="286.21" to="154.15" values="286.21; 154.15; 286.21"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y1" from="264.67" to="275.93" values="264.67; 275.93; 264.67"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="x2" from="293.23" to="160.75" values="293.23; 160.75; 293.23"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y2" from="287.18" to="299.41" values="287.18; 299.41; 287.18"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              </line>
+              <line x1="447.25" y1="701.76" x2="429.08" y2="722.38" fill="none" stroke="#fff" stroke-linecap="round"
+                stroke-miterlimit="10" stroke-width="3">
+                <animate attributeName="x1" from="447.25" to="304.49" values="447.25; 304.49; 447.25"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y1" from="701.76" to="711.79" values="701.76; 711.79; 701.76"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="x2" from="429.08" to="280.75" values="429.08; 280.75; 429.08"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y2" from="722.38" to="726.63" values="722.38; 726.63; 722.38"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              </line>
+              <line x1="668.09" y1="451.33" x2="652.41" y2="469.12" fill="none" stroke="#fff" stroke-linecap="round"
+                stroke-miterlimit="10" stroke-width="3">
+                <animate attributeName="x1" from="668.09" to="606.45" values="668.09; 606.45; 668.09"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y1" from="451.33" to="523.08" values="451.33; 523.08; 451.33"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="x2" from="652.41" to="586.31" values="652.41; 586.31; 652.41"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y2" from="469.12" to="535.66" values="469.12; 535.66; 469.12"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              </line>
+              <line x1="649.95" y1="84.25" x2="648.68" y2="58.53" fill="none" stroke="#fff" stroke-linecap="round"
+                stroke-miterlimit="10" stroke-width="3">
+                <animate attributeName="x1" from="649.95" to="606.45" values="649.95; 606.45; 649.95"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y1" from="84.25" to="125.51" values="84.25; 125.51; 84.25" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="x2" from="648.68" to="606.45" values="648.68; 606.45; 648.68"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y2" from="58.53" to="99.5" values="58.53; 99.5; 58.53" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              </line>
+              <line x1="668.09" y1="451.33" x2="666.94" y2="427.95" fill="none" stroke="#fff" stroke-linecap="round"
+                stroke-miterlimit="10" stroke-width="3">
+                <animate attributeName="x1" from="668.09" to="606.45" values="668.09; 606.45; 668.09"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y1" from="451.33" to="523.08" values="451.33; 523.08; 451.33"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="x2" from="666.94" to="606.45" values="666.94; 606.45; 666.94"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y2" from="427.95" to="499.7" values="427.95; 499.7; 427.95" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              </line>
+              <line x1="648.68" y1="58.53" x2="623.3" y2="56.41" fill="none" stroke="#fff" stroke-linecap="round"
+                stroke-miterlimit="10" stroke-width="3">
+                <animate attributeName="x1" from="648.68" to="606.45" values="648.68; 606.45; 648.68"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y1" from="58.53" to="99.5" values="58.53; 99.5; 58.53" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="x2" from="623.3" to="581.37" values="623.3; 581.37; 623.3" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y2" from="56.41" to="96.02" values="56.41; 96.02; 56.41" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              </line>
+              <line x1="644.81" y1="443.33" x2="668.09" y2="451.33" fill="none" stroke="#fff" stroke-linecap="round"
+                stroke-miterlimit="10" stroke-width="3">
+                <animate attributeName="x1" from="644.81" to="585.05" values="644.81; 585.05; 644.81"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y1" from="443.33" to="510.98" values="443.33; 510.98; 443.33"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="x2" from="668.09" to="606.45" values="668.09; 606.45; 668.09"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y2" from="451.33" to="523.08" values="451.33; 523.08; 451.33"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              </line>
+              <line x1="1.5" y1="214.51" x2="11.43" y2="237.53" fill="none" stroke="#fff" stroke-linecap="round"
+                stroke-miterlimit="10" stroke-width="3">
+                <animate attributeName="x1" from="1.5" to="17.36" values="1.5; 17.36; 1.5" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y1" from="214.51" to="178.94" values="214.51; 178.94; 214.51"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="x2" from="11.43" to="25.01" values="11.43; 25.01; 11.43" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y2" from="237.53" to="202.91" values="237.53; 202.91; 237.53"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              </line>
+              <line x1="429.08" y1="722.38" x2="410.45" y2="710.81" fill="none" stroke="#fff" stroke-linecap="round"
+                stroke-miterlimit="10" stroke-width="3">
+                <animate attributeName="x1" from="429.08" to="280.75" values="429.08; 280.75; 429.08"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y1" from="722.38" to="726.63" values="722.38; 726.63; 722.38"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="x2" from="410.45" to="267.02" values="410.45; 267.02; 410.45"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y2" from="710.81" to="709.34" values="710.81; 709.34; 710.81"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              </line>
+              <line x1="1.5" y1="214.51" x2="23.45" y2="200.52" fill="none" stroke="#fff" stroke-linecap="round"
+                stroke-miterlimit="10" stroke-width="3">
+                <animate attributeName="x1" from="1.5" to="17.36" values="1.5; 17.36; 1.5" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y1" from="214.51" to="178.94" values="214.51; 178.94; 214.51"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="x2" from="23.45" to="40.87" values="23.45; 40.87; 23.45" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+                <animate attributeName="y2" from="200.52" to="167.84" values="200.52; 167.84; 200.52"
+                  keyTimes="0; 0.5; 1" repeatCount="indefinite" dur="20s" fill="freeze"></animate>
+              </line>
+            </g>
+            <g>
+              <image href="img/b1.png" x="254" y="288" width="340" height="340">
+                <animate attributeName="x" from="220" to="290" values="220; 290; 220" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="10s" fill="freeze"></animate>
+                <animate attributeName="y" from="288" to="288" values="288; 288; 288" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="10s" fill="freeze"></animate>
+              </image>
+              <image href="img/b2.png" x="-22" y="-32" width="380" height="380">
+                <animate attributeName="x" from="22" to="-22" values="22; -22; 22" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="10s" fill="freeze"></animate>
+                <animate attributeName="y" from="-52" to="-32" values="-52; -32; -52" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="10s" fill="freeze"></animate>
+              </image>
+              <image href="img/b3.png" x="660" y="230" width="260" height="260">
+                <animate attributeName="x" from="660" to="630" values="660; 630; 660" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="10s" fill="freeze"></animate>
+                <animate attributeName="y" from="200" to="260" values="200; 260; 200" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="10s" fill="freeze"></animate>
+              </image>
+              <image href="img/b4.png" x="340" y="740" width="160" height="160">
+                <animate attributeName="x" from="300" to="240" values="300; 240; 300" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="10s" fill="freeze"></animate>
+                <animate attributeName="y" from="720" to="725" values="740; 725; 740" keyTimes="0; 0.5; 1"
+                  repeatCount="indefinite" dur="10s" fill="freeze"></animate>
+              </image>
+            </g>
+          </svg>
+        </div>
+        <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox">
+          <div class="cursor__element"
+            style="--translate-x: 65.75328014437926px; --translate-y: -223.55849341841383px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+              <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z"
+                fill="#FF3789" stroke="#FF3789" stroke-width="1.123" fill-rule="evenodd"></path>
+            </svg>
+            <div class="cursor__name" style="background-color: #FF3789;">Product Designer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox" style="right: 0;">
+      <div class="cursor__element" style="--translate-x: 97.72676741918956px; --translate-y: -149.80089953253977px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+          <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z" fill="#6236FF"
+            stroke="#6236FF" stroke-width="1.123" fill-rule="evenodd"></path>
+        </svg>
+        <div class="cursor__name" style="background-color: #6236FF;">Front-End Designer</div>
+      </div>
+    </div>
+  </section>
+  <section class="ftco-about img ftco-section ftco-no-pb my-5 py-5" id="about-section">
+    <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox">
+      <div class="cursor__element" style="--translate-x: 35.26413190533466px; --translate-y: 41.590549782215916px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+          <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z" fill="#039F60"
+            stroke="#039F60" stroke-width="1.123" fill-rule="evenodd"></path>
+        </svg>
+        <div class="cursor__name" style="background-color: #039F60;">Graphic Designer</div>
+      </div>
+    </div>
+    <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox" style="right: 0;">
+      <div class="cursor__element" style="--translate-x: -41.539671919830326px; --translate-y: 49.75996910970295px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+          <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z" fill="#E02020"
+            stroke="#E02020" stroke-width="1.123" fill-rule="evenodd"></path>
+        </svg>
+        <div class="cursor__name" style="background-color: #E02020;">UI Designer</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col-md-6 col-lg-5 d-flex">
+          <div class="img-about img d-flex align-items-stretch rounded-5">
+            <div class="overlay"></div>
+            <div class="img d-flex align-self-stretch align-items-center profile_img"
+              style="background-image: url(img/IMG_0358-01.jpeg);top: 5rem;"></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-7 pl-lg-5">
+          <div class="row aboutus justify-content-start pb-3">
+            <div class="col-md-12 heading-section ftco-animate fadeInUp ftco-animated">
+              <h1 class="big">About</h1>
+              <h2 class="mb-4" style="color: yellowgreen;">About Me</h2>
+              <p>
+                We create solutions that have top ui/ux or website designs and
+                software development standards, suitable for best web products
+                &amp; Android / iOS apps, crafted with love &amp; passion.
+              </p>
+              <ul class="about-info mt-4 px-md-0 px-2">
+                <li class="d-flex">
+                  <span>Name:</span> <span>Vivek Barvaliya</span>
+                </li>
+                <li class="d-flex">
+                  <span>Date of birth:</span> <span>August 22, 2003</span>
+                </li>
+                <li class="d-flex">
+                  <span>Address:</span>
+                  <span>Surat, Gujarat</span>
+                </li>
+                <li class="d-flex">
+                  <span>Email:</span> <span>vivkbarvaliya4224@gmail.com</span>
+                </li>
+                <li class="d-flex">
+                  <span>Phone: </span> <span>+91 9723192735</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="counter-wrap ftco-animate d-flex mt-md-3 fadeInUp ftco-animated">
+            <div class="text">
+              <p class="mb-4">
+                <span class="number" data-number="50">50</span>
+                <span>+ Project complete</span>
+              </p>
+              <p>
+                <a href="https://resume.io/r/Sq0ubtCd8" class="btn btn-primary py-3 px-3" target="_blank"
+                  download="">Download CV</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section ftco-no-pb my-5 py-5 " id="resume-section">
+    <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox">
+      <div class="cursor__element" style="--translate-x: 97.37429608547495px; --translate-y: -196.7203281733491px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+          <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z"
+            fill="currentcolor" stroke="#FFF" stroke-width="1.123" fill-rule="evenodd"></path>
+        </svg>
+        <div class="cursor__name">Interaction Designer</div>
+      </div>
+    </div>
+    <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox" style="right: 0;">
+      <div class="cursor__element" style="--translate-x: -79.38892835067286px; --translate-y: 131.1209598483949px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+          <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z" fill="#B620E0"
+            stroke="#B620E0" stroke-width="1.123" fill-rule="evenodd"></path>
+        </svg>
+        <div class="cursor__name" style="background-color: #B620E0;">Video Animation</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row resume justify-content-center pb-5">
+        <div class="col-md-10 heading-section text-center ftco-animate fadeInUp ftco-animated">
+          <h1 class="big big-2">Education</h1>
+          <h2 class="mb-4">Education</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6  mb-3">
+          <div class="resume-wrap about_item_inner ftco-animate fadeInUp ftco-animated">
+            <span class="date">2021</span>
+            <h2>12th Complete</h2>
+            <span class="position">J.B &amp; KARP Vidya Sankul, Surat</span>
+          </div>
+        </div>
+        <div class="col-md-6  mb-3">
+          <div class="resume-wrap about_item_inner ftco-animate fadeInUp ftco-animated">
+            <span class="date">2021 to Present</span>
+            <h2>Bachelor of Computer Application </h2>
+            <span class="position">Bhagwan Mahavir University, Surat</span>
+          </div>
+        </div>
+        <div class="col-md-6  mb-3">
+          <div class="resume-wrap about_item_inner ftco-animate fadeInUp ftco-animated">
+            <span class="date">2023 to Present</span>
+            <h2>Full Stack Web Development</h2>
+            <span class="position">Tops Teccnology, Surat</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section ftco-no-pb my-5 py-5" id="resume-section">
+    <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox">
+      <div class="cursor__element" style="--translate-x: -48.85238427487325px; --translate-y: -98.97709585394954px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+          <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z" fill="#0091FF"
+            stroke="#0091FF" stroke-width="1.123" fill-rule="evenodd"></path>
+        </svg>
+        <div class="cursor__name" style="background-color: #0091FF;">Video Editing</div>
+      </div>
+    </div>
+    <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox" style="right: 0;">
+      <div class="cursor__element" style="--translate-x: -102.5322982645745px; --translate-y: 31.07102373844047px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+          <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z" fill="#FF7A00"
+            stroke="#FF7A00" stroke-width="1.123" fill-rule="evenodd"></path>
+        </svg>
+        <div class="cursor__name" style="background-color: #FF7A00;">Game Designer</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row resume justify-content-center pb-5">
+        <div class="col-md-10 heading-section text-center ftco-animate fadeInUp ftco-animated">
+          <h1 class="big big-2">Experience</h1>
+          <h2 class="mb-4">Experience</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <div class="resume-wrap about_item_inner ftco-animate fadeInUp ftco-animated">
+            <span class="date">As Fresher</span>
+            <h2>Web Designer &amp; Web Developer </h2>
+            <span class="position">Web designer, Surat</span>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row justify-content-center mt-5">
+          <div class="col-md-6 text-center ftco-animate">
+            <p><a href="https://www.mediafire.com/view/dm6w9j87qm41jqp/Kemil-Ramani-CV_%2528UI-UX_Designer%2529.jpg/file" class="btn btn-primary py-4 px-5">Download CV</a></p>
+          </div>
+        </div> -->
+    </div>
+  </section>
+
+  <section class="ftco-section" id="services-section">
+    <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox">
+      <div class="cursor__element" style="--translate-x: 96.93914855638396px; --translate-y: 82.05284286585109px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+          <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z" fill="#1F6BFF"
+            stroke="#1F6BFF" stroke-width="1.123" fill-rule="evenodd"></path>
+        </svg>
+        <div class="cursor__name" style="background-color: #1F6BFF;">Logo Designer</div>
+      </div>
+    </div>
+    <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox" style="right: 0;">
+      <div class="cursor__element" style="--translate-x: 42.53914611448442px; --translate-y: 126.53416235359707px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+          <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z" fill="#656565"
+            stroke="#656565" stroke-width="1.123" fill-rule="evenodd"></path>
+        </svg>
+        <div class="cursor__name" style="background-color: #656565;">Brand Designer</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row services justify-content-center py-5 mt-5">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Services</h1>
+          <h2 class="mb-4">Services</h2>
+          <!--             <p>
+              Whether you are working on a new startup or have an existing
+              product, I'd love the opportunity to help you and your team solve
+              your most challenging problems.
+            </p> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-center d-flex ftco-animate">
+          <a href="#" class="services-1 mb-3">
+            <span class="icon">
+              <i class="fa-solid fa-pen-nib"></i>
+            </span>
+            <div class="desc">
+              <h3>Ui/Ux Design</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 text-center d-flex ftco-animate">
+          <a href="#" class="services-1  mb-3">
+            <span class="icon">
+              <i class="fa-solid fa-code"></i>
+            </span>
+            <div class="desc">
+              <h3>Web Design</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 text-center d-flex ftco-animate">
+          <a href="#" class="services-1 mb-3">
+            <span class="icon">
+              <i class="fa-solid fa-palette"></i>
+            </span>
+            <div class="desc">
+              <h3>Front-End Design</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section" id="skills-section">
+    <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox">
+      <div class="cursor__element" style="--translate-x: 82.8776078217654px; --translate-y: 10.647963601243836px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+          <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z"
+            fill="currentcolor" stroke="#FFF" stroke-width="1.123" fill-rule="evenodd"></path>
+        </svg>
+        <div class="cursor__name">website Designer</div>
+      </div>
+    </div>
+    <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox" style="right: 0;">
+      <div class="cursor__element" style="--translate-x: -36.90380115881068px; --translate-y: -82.30313098724906px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+          <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z"
+            fill="currentcolor" stroke="#FFF" stroke-width="1.123" fill-rule="evenodd"></path>
+        </svg>
+        <div class="cursor__name">Lottie Expert</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row skills justify-content-center my-5">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Skills</h1>
+          <h2 class="mb-4">My Skills</h2>
+          <p>
+            My Skill is high level of proficiency and aligns with your expertise as an Web Designer.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>HTML</h3>
+            <div class="progress">
+              <div class="progress-bar color-1" role="progressbar" aria-valuenow="99.99" aria-valuemin="0"
+                aria-valuemax="100" style="width: 99.99%">
+                <span>99.99%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>CSS</h3>
+            <div class="progress">
+              <div class="progress-bar color-2" role="progressbar" aria-valuenow="99.99" aria-valuemin="0"
+                aria-valuemax="100" style="width: 99.99%">
+                <span>99.99%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>C/C++</h3>
+            <div class="progress">
+              <div class="progress-bar color-1" role="progressbar" aria-valuenow="99.99" aria-valuemin="0"
+                aria-valuemax="100" style="width: 75.99%">
+                <span>75.99%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>JAVA SCRIPT</h3>
+            <div class="progress">
+              <div class="progress-bar color-2" role="progressbar" aria-valuenow="99.99" aria-valuemin="0"
+                aria-valuemax="100" style="width: 85.99%">
+                <span>85.99%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>JQUERY</h3>
+            <div class="progress">
+              <div class="progress-bar color-1" role="progressbar" aria-valuenow="99.99" aria-valuemin="0"
+                aria-valuemax="100" style="width: 50.99%">
+                <span>50.99%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>SQL</h3>
+            <div class="progress">
+              <div class="progress-bar color-2" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100" style="width: 50%">
+                <span style="right: -36px;">50%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>BOOTSTRAP</h3>
+            <div class="progress">
+              <div class="progress-bar color-2" role="progressbar" aria-valuenow="99.99" aria-valuemin="0"
+                aria-valuemax="100" style="width: 80.99%">
+                <span>80.99%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>PYTHON</h3>
+            <div class="progress">
+              <div class="progress-bar color-2" role="progressbar" aria-valuenow="99.99" aria-valuemin="0"
+                aria-valuemax="100" style="width: 0.00%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>PHOTOSHOP</h3>
+            <div class="progress">
+              <div class="progress-bar color-2" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100" style="width: 50%">
+                <span>50.99%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>AFTER EFFECT</h3>
+            <div class="progress">
+              <div class="progress-bar color-2" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100" style="width: 50%">
+                <span>50.99%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section ftco-project" id="projects-section">
+    <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox">
+      <div class="cursor__element" style="--translate-x: 27.826062200301273px; --translate-y: -196.83485913125483px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+          <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z" fill="#0091FF"
+            stroke="#0091FF" stroke-width="1.123" fill-rule="evenodd"></path>
+        </svg>
+        <div class="cursor__name" style="background-color: #0091FF;">Photoshop</div>
+      </div>
+    </div>
+    <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox" style="right: 0;">
+      <div class="cursor__element" style="--translate-x: 44.074193013771065px; --translate-y: 9.20983150870391px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+          <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z" fill="#1F6BFF"
+            stroke="#1F6BFF" stroke-width="1.123" fill-rule="evenodd"></path>
+        </svg>
+        <div class="cursor__name" style="background-color: #1F6BFF;">Illustrator</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row portfolio justify-content-center pb-5">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Projects</h1>
+          <h2 class="mb-4">My Projects</h2>
+          <!--             <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia
+            </p> -->
+        </div>
+      </div>
+      <div class="row" style="display: flex;">
+        <div class="col-md-4">
+          <div class="project img ftco-animate d-flex justify-content-center align-items-center fadeInUp ftco-animated"
+            style="background-image: url(img/wallet.jpg)">
+            <div class="overlay"></div>
+            <div class="text text-center p-4">
+              <h3><a href="#">Wallet App Ui</a></h3>
+              <span>UI/UX Design</span>
+              <div class="btn-view-more"><a href="#about">View Full</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="project img ftco-animate d-flex justify-content-center align-items-center fadeInUp ftco-animated"
+            style="background-image: url(img/loan.jpg)">
+            <div class="overlay"></div>
+            <div class="text text-center p-4">
+              <h3><a href="#">Web Page</a></h3>
+              <span>Web Page Design</span>
+              <div class="btn-view-more"><a href="#">View Full</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="project img ftco-animate d-flex justify-content-center align-items-center fadeInUp ftco-animated"
+            style="background-image: url(img/calender.jpg)">
+            <div class="overlay"></div>
+            <div class="text text-center p-4">
+              <h3><a href="#">Google-Calendar App Design</a></h3>
+              <span>Web Design</span>
+              <div class="btn-view-more"><a href="about">View Full</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project img ftco-animate d-flex justify-content-center align-items-center fadeInUp ftco-animated"
+            style="background-image: url(img/food.jpg)">
+            <div class="overlay"></div>
+            <div class="text text-center p-4">
+              <h3><a href="#">Food Web Design</a></h3>
+              <span>Web Design</span>
+              <div class="btn-view-more"><a href="about">View Full</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center"> <a href="#" class="btn btn-primary1 py-3 px-4">Show
+          More</a> </div>
+    </div>
+  </section>
+
+  <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+    <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox">
+      <div class="cursor__element" style="--translate-x: 26.77366278456456px; --translate-y: -48.88586676616274px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+          <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z" fill="#039F60"
+            stroke="#039F60" stroke-width="1.123" fill-rule="evenodd"></path>
+        </svg>
+        <div class="cursor__name" style="background-color: #039F60;">After Effect</div>
+      </div>
+    </div>
+    <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox" style="right: 0;">
+      <div class="cursor__element" style="--translate-x: 84.23969917215672px; --translate-y: 93.42807545662232px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+          <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z" fill="#039F60"
+            stroke="#039F60" stroke-width="1.123" fill-rule="evenodd"></path>
+        </svg>
+        <div class="cursor__name" style="background-color: #039F60;">Indesign</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row d-md-flex align-items-center">
+        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+          <div class="block-18">
+            <div class="text">
+              <strong class="number" data-number="3">3</strong>
+              <span>Awards</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+          <div class="block-18">
+            <div class="text">
+              <strong class="number" data-number="50">50</strong>
+              <span>Complete Projects</span>
+            </div>
+          </div>
+          <div class="cursor cursor--1 cursor--blue is-visible was-shown arrowonebox" style="right: 0;">
+            <div class="cursor__element"
+              style="--translate-x: 19.023805587067802px; --translate-y: 79.93290350712971px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="21">
+                <path d="M1.438 1.643l10.916 10.933H7.84l2.463 5.84-3.074 1.324-2.465-5.85-3.326 3.226V1.643z"
+                  fill="currentcolor" stroke="#FFF" stroke-width="1.123" fill-rule="evenodd"></path>
+              </svg>
+              <div class="cursor__name">Premiere Pro</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+          <div class="block-18">
+            <div class="text">
+              <strong class="number" data-number="50">50</strong>
+              <span>Happy Customers</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section ftco-hireme img margin-top" style="background-image: url(img/bg_1.jpg)">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-7 ftco-animate text-center">
+          <h2>I'm <span>Available</span> for freelancing</h2>
+          <!--             <p>
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia.
+            </p> -->
+          <p class="mb-0">
+            <a href="#" class="btn btn-primary py-3 px-5">Hire me</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+    <div class="container">
+      <div class="row services justify-content-center my-5 py-3">
+        <div class="col-md-7 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Contact</h1>
+          <h2 class="mb-4">Contact Me</h2>
+          <!--             <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia
+            </p> -->
+        </div>
+      </div>
+
+      <div class="row d-flex contact-info mb-5">
+        <div class="col-md-6 col-lg-4 d-flex ftco-animate">
+          <div class="align-self-stretch box p-4 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="fa-regular fa-map"></span>
+            </div>
+            <h3 class="mb-4">Address</h3>
+            <p>Surat, Gujarat</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 d-flex ftco-animate">
+          <div class="align-self-stretch box p-4 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="fa-solid fa-phone"></span>
+            </div>
+            <h3 class="mb-4">Contact Number</h3>
+            <p><a href="tel://1234567920">+91 9723192735</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 d-flex ftco-animate">
+          <div class="align-self-stretch box p-4 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="fa-solid fa-paper-plane"></span>
+            </div>
+            <h3 class="mb-4">Email Address</h3>
+            <p>
+              <a href="mailto:vivekbarvaliya4224@gmail.com">vivekbarvaliya4224@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="ftco-footer ftco-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">About</h2>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+              <li class="ftco-animate">
+                <a href="https://dribbble.com/Vivek_4224"><span class="fa-solid fa-basketball"></span></a>
+              </li>
+              <li class="ftco-animate">
+                <a href="https://www.behance.net/vivekbarvaliya"><span class="fa-brands fa-behance"></span></a>
+              </li>
+              <li class="ftco-animate">
+                <a href="https://www.instagram.com/it.zzz_851n9?igsh=MXdwZ3Uwcm03eGpmZw=="><span
+                    class="fa-brands fa-instagram"></span></a>
+              </li>
+              <li class="ftco-animate">
+                <a href="https://www.linkedin.com/in/vivek-barvaliya-6ab156253/"><span
+                    class="fa-brands fa-linkedin"></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4 ml-md-4">
+            <h2 class="ftco-heading-2">Links</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#"><span class="fa-solid fa-arrow-right mr-2"></span>Home</a>
+              </li>
+              <li>
+                <a href="#"><span class="fa-solid fa-arrow-right mr-2"></span>About</a>
+              </li>
+              <li>
+                <a href="#"><span class="fa-solid fa-arrow-right mr-2"></span>Services</a>
+              </li>
+              <li>
+                <a href="#"><span class="fa-solid fa-arrow-right mr-2"></span>Projects</a>
+              </li>
+              <li>
+                <a href="#"><span class="fa-solid fa-arrow-right mr-2"></span>Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Services</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#"><span class="fa-solid fa-arrow-right mr-2"></span>Ui/Ux
+                  Design</a>
+              </li>
+              <li>
+                <a href="#"><span class="fa-solid fa-arrow-right mr-2"></span>Web
+                  Design</a>
+              </li>
+              <li>
+                <a href="#"><span class="fa-solid fa-arrow-right mr-2"></span>Graphic
+                  Design</a>
+              </li>
+              <li>
+                <a href="#"><span class="fa-solid fa-arrow-right mr-2"></span>Front-End
+                  Design</a>
+              </li>
+              <li>
+                <a href="#"><span class="fa-solid fa-arrow-right mr-2"></span>Video
+                  Editing</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Have a Questions?</h2>
+            <div class="block-23 mb-3">
+              <ul>
+                <li>
+                  <span class=" icon fa-solid fa-location-dot">
+                  </span>
+                  <span class="text">Surat, Gujarat
+                  </span>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="icon fa-solid fa-phone"></span>
+                    <span class="text">+91 9723192735</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="icon fa-solid fa-envelope"></span>
+                    <span class="text">vivekbarvaliya4224@gmail.com</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- cursor -->
+  <div id="cursor" class="Cursor">
+  </div>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="fullscreen">
+    <svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"></circle>
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00">
+      </circle>
+    </svg>
+  </div>
+
+  <script>
+    const noise = new SimplexNoise();
+    const cursorElements = document.querySelectorAll(".cursor__element");
+    const cursorTranslations = [];
+
+    cursorElements.forEach(() => {
+      cursorTranslations.push({
+        translateX: 100,
+        translateY: 100,
+      });
+    });
+
+    function updateCursorsWithNoise() {
+      const time = Date.now() * 0.00006;
+
+      const ywidth = document.querySelector(".arrowonebox").offsetHeight;
+      const xheight = document.querySelector(".arrowonebox").offsetWidth;
+
+      cursorElements.forEach((cursorElement, index) => {
+        const noiseX = noise.noise2D(time, index);
+        const noiseY = noise.noise2D(index, time);
+
+        const tempx = noiseX * ywidth;
+        const tempy = noiseY * xheight;
+
+        // cursorTranslations[index].translateX = tempx >= 0 ? tempx : tempx.toString().substring(1);
+        // cursorTranslations[index].translateY = tempy >= 0 ? tempy : tempy.toString().substring(1);
+
+        cursorTranslations[index].translateX = tempx;
+        cursorTranslations[index].translateY = tempy;
+
+        cursorElement.style.setProperty("--translate-x", `${cursorTranslations[index].translateX}px`);
+        cursorElement.style.setProperty("--translate-y", `${cursorTranslations[index].translateY}px`);
+      });
+      requestAnimationFrame(updateCursorsWithNoise);
+    }
+    updateCursorsWithNoise();
+  </script>
+
+  <script src="./files/jquery.min.js.download"></script>
+  <script src="./files/jquery-migrate-3.0.1.min.js.download"></script>
+  <script src="./files/popper.min.js.download"></script>
+  <script src="./files/bootstrap.min.js.download"></script>
+  <script src="./files/jquery.easing.1.3.js.download"></script>
+  <script src="./files/jquery.waypoints.min.js.download"></script>
+  <script src="./files/jquery.stellar.min.js.download"></script>
+  <script src="./files/owl.carousel.min.js.download"></script>
+  <script src="./files/jquery.magnific-popup.min.js.download"></script>
+  <script src="./files/aos.js.download"></script>
+  <script src="./files/jquery.animateNumber.min.js.download"></script>
+  <script src="./files/scrollax.min.js.download"></script>
+
+  <script src="./files/main.js.download"></script>
+
+
+  </script>
+
+
+</body>
+
+</html>
